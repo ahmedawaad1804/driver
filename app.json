@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "BM-Driver",
+    "slug": "BM-Driver",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/512.png",
+    "splash": {
+      "image": "./assets/sp.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF064"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.beemall.driver",
+      "versionCode": 5,
+      "config":{
+        "googleMaps":{
+          "apiKey":"AIzaSyCJec-8VQVXNjMORK8IIPUiztZ7k2HVEOA"
+        }
+      }
+    }
+  }
+}
